@@ -12,3 +12,44 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.js-gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 24px;
+  row-gap: 48px;
+  max-width: 1128px;
+}
+
+.js-gallery-item {
+  width: calc((100% - 48px) / 3);
+}
